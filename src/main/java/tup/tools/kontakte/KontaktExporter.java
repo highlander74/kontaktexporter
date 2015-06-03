@@ -21,6 +21,7 @@ public class KontaktExporter {
 			System.out.println();
 			boolean first = true;
 			StringBuffer kontakte = new StringBuffer();
+			//test
 			for (String value : values) {
 				if (!first) {
 					kontakte.append("_");
